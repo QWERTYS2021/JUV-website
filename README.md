@@ -1,1 +1,139 @@
-# JUV-website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Portfolio | Juvenile Dagohoy</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #1e1e2f;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 15px;
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #1e1e2f;
+        }
+
+        h3 {
+            margin-top: 20px;
+            color: #444;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1e1e2f;
+            color: white;
+        }
+
+        a {
+            color: #1e1e2f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="pfp.jpg" alt="My Profile Picture" class="profile-pic">
+        <h1>Juvenile Jilt Dagohoy</h1>
+        <p>Student | Artist | Game Developer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a student passionate about arts and game development.
+            I enjoy creating digital art, designing concepts, and learning how games are built.
+        </p>
+    </section>
+
+    <section>
+        <h2>Personal Profile</h2>
+
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Drawing and digital art</li>
+            <li>Playing and designing games</li>
+            <li>Listening to music</li>
+        </ul>
+
+        <h3>Interests</h3>
+        <ul>
+            <li>Game development</li>
+            <li>Character design</li>
+            <li>Technology and creativity</li>
+        </ul>
+
+        <h3>Achievements</h3>
+        <ul>
+            <li>Completed a personal digital art collection</li>
+            <li>Finished a basic game concept project</li>
+            <li>Participated in school activities</li>
+        </ul>
+
+        <h3>Life Experiences</h3>
+        <ul>
+            <li>Learning self-discipline through academic challenges</li>
+            <li>Balancing studies and creative hobbies</li>
+            <li>Gaining confidence by presenting projects</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>References</h2>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/share/1LXAqoVAGQ/" target="_blank">
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com/JuvenileD6/likes" target="_blank">
+                    Twitter (X)
+                </a>
+            </li>
+            <li>
+                <a href="mailto:juvjuvdagdag@gmail.com">
+                    Gmail
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Juvenile Dagohoy | E-Portfolio</p>
+    </footer>
+
+</body>
+</html>
